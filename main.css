@@ -58,9 +58,8 @@ body {
 }
 
 .col-xs-12 {
-  height: 32px;
-  border-top: 2px solid;
-  border-left: 2px solid;
+  border-top: 1px solid;
+  border-left: 1px solid;
   border-right: 2px solid;
 }
 
@@ -69,21 +68,27 @@ body {
 }
 
 .bottom {
-  border-bottom: 2px solid;
+  border-bottom: 1px solid;
 }
 
 .col-xs-2 {
-  height: 31px;
+  height: 32px;
   border-left: 1px solid;
   border-bottom: 1px solid;
   text-align: center;
   padding-top: 0.6rem;
   background: rgba(175, 206, 255,.8);
+  overflow: hidden;
 }
 
 .day {
   background: rgba(150,180,230,.8);
   font-weight: bold;
+  border-top: 1px solid black;
+}
+
+.empty {
+  border-top: 1px solid;
 }
 
 .time {
